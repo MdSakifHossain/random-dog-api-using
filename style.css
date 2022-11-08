@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root {
+	
+}
+
+@font-face {
+  font-family:cbn;/*Give it any name u desire*/
+  src: url(cbn.ttf);
+}
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:cbn, monospace;
+transition:700ms;
+}
+
+body {
+width:100vw;
+}
+
+.up {
+width:100%;
+height:20vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.up h1 {
+font-weight:100;
+}
+
+.main {
+width:100%;
+height:60vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.main > img {
+width:70%;
+border-radius:20px;
+border:5px solid #000;
+background:#000;
+}
+
+.down {
+width:100%;
+height:20vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.down > button {
+padding:10px 20px;
+background:#fff000;
+color:#000;
+border:1px solid #000;
+border-radius:5px;
+font-size:1rem;
+font-weight:700;
+font-family:monospace;
+transition:none;
+}
+
+.down > button:active {
+background:hsl(350, 100%, 50%);
+color:#fff;
+}
